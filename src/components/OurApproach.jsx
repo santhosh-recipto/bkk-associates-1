@@ -3,7 +3,7 @@ import HeadingText from "./HeadingText";
 
 function Card({ imageSrc, title, description }) {
   return (
-    <div className="border shadow-md text-center rounded-2xl p-6">
+    <div className="border shadow-md text-center rounded-2xl p-6 bg-white">
       <img src={imageSrc} alt={title} className="mx-auto mb-4 w-14 h-14" />
       <h3 className="text-lg font-bold mb-2">{title}</h3>
       <p className="text-sm text-gray-600">{description}</p>
@@ -33,7 +33,7 @@ export default function OurApproach() {
     },
   ];
   return (
-    <section id="ourapproach" className="py-20">
+    <section id="ourapproach" className="py-20 bg-[#E0EFFA]">
       <div className="container mx-auto px-4">
         <HeadingText className="text-[#175888] text-center mb-4">
           OUR APPROACH
